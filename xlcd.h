@@ -51,13 +51,13 @@
 //#define TRIS_E   DDRDbits.RD0    /* TRIS for E  */
 
 #define RW_PIN   LATDbits.LATD2   		/* PORT for RW */
- #define TRIS_RW  TRISDbits.TRISD2    	/* TRIS for RW */
+#define TRIS_RW  TRISDbits.TRISD2    	/* TRIS for RW */
 
- #define RS_PIN   LATDbits.LATD1   		/* PORT for RS */
- #define TRIS_RS  TRISDbits.TRISD1    	/* TRIS for RS */
+#define RS_PIN   LATDbits.LATD1   		/* PORT for RS */
+#define TRIS_RS  TRISDbits.TRISD1    	/* TRIS for RS */
 
- #define E_PIN    LATDbits.LATD0  		/* PORT for E  */
- #define TRIS_E   TRISDbits.TRISD0    	/* TRIS for E  */
+#define E_PIN    LATDbits.LATD0  		/* PORT for E  */
+#define TRIS_E   TRISDbits.TRISD0    	/* TRIS for E  */
 #else /* 17CXX */
 #define RW_PIN   PORTAbits.RA2   /* PORT for RW */
 #define TRIS_RW  DDRAbits.RA2    /* TRIS for RW */
